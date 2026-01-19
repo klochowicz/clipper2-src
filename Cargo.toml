@@ -2,6 +2,7 @@
 name = "clipper2-src"
 version = "2.0.1"
 edition = "2024"
+authors = ["Mariusz Klochowicz <mariusz@klochowicz.com>"]
 description = "Source distribution of Clipper2 polygon clipping library"
 license = "BSL-1.0"
 repository = "https://github.com/AML3D/clipper2-src"
