@@ -1,0 +1,21 @@
+[package]
+name = "clipper2-src"
+version = "2.0.1"
+edition = "2024"
+description = "Source distribution of Clipper2 polygon clipping library"
+license = "BSL-1.0"
+repository = "https://github.com/AML3D/clipper2-src"
+keywords = ["clipper2", "polygon", "clipping", "offset", "geometry"]
+categories = ["external-ffi-bindings", "development-tools::build-utils"]
+links = "clipper2"
+exclude = [
+    "Clipper2/CSharp",
+    "Clipper2/Delphi",
+    "Clipper2/Tests",
+    "Clipper2/Images",
+    "Clipper2/Utils",
+    "Clipper2/.git",
+]
+
+[build-dependencies]
+cc = "1"
