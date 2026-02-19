@@ -9,13 +9,12 @@ repository = "https://github.com/AML3D/clipper2-src"
 keywords = ["clipper2", "polygon", "clipping", "offset", "geometry"]
 categories = ["external-ffi-bindings", "development-tools::build-utils"]
 links = "clipper2"
-exclude = [
-    "Clipper2/CSharp",
-    "Clipper2/Delphi",
-    "Clipper2/Tests",
-    "Clipper2/Images",
-    "Clipper2/Utils",
-    "Clipper2/.git",
+include = [
+    "src/**",
+    "build.rs",
+    "LICENSE",
+    "README.md",
+    "Clipper2/CPP/Clipper2Lib/**",
 ]
 
 [build-dependencies]
